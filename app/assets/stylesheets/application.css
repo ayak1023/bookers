@@ -23,9 +23,44 @@ body {
     margin: 33px;
 }
 
-p, ol, ul, td {
-    font-family: verdana, arial, helvetica, sans-serif;
-    font-size: 13px;
-    line-height: 18px;
-    margin: 33px;
+.index_table th{
+    padding: 5px 0;
 }
+
+.index_table td{
+    padding: 5px;
+}
+
+.index_txt_title ,.index_txt_body ,.edit_txt_title ,.edit_txt_body{
+    margin: 5px 0 0 0;
+}
+
+.index_txt_area ,.edit_txt_area ,.edit_submit{
+    margin-bottom: 10px;
+}
+
+.show_txt{
+    margin: 30px;
+}
+
+.flash-message.notice {
+    color: green;
+    margin: 30px;
+}
+
+.error_box{
+    width:450px;
+    border:solid 1px red;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.v_error{
+    color:#fff;
+    font-weight: bold;
+    background-color: red;
+    padding:5px 5px 5px 15px;
+    font-size: 12px;
+    margin: 0 0 5px 0;
+}
+
